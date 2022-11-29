@@ -43,3 +43,7 @@ func GetFloatPointer(input float64) (output *float64) {
 	output = &input
 	return
 }
+
+func HelloUtils() string {
+	return "Hello utils"
+}
